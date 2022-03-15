@@ -10,7 +10,6 @@ body {
     background-color: #1f2937;
     justify-content: center;
     height: 550px;
-    flex-shrink: 0;
 }
 
 .first_container {
@@ -18,7 +17,6 @@ body {
     flex-direction: column;
     width: 1100px;
     margin-top: 20px;
-    flex-shrink: 0;
 }
 
 .header {
@@ -86,11 +84,7 @@ a {
     flex-direction: column;
     justify-content: center;
     height: 550px;
-}
-
-.second_container {
-    display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
