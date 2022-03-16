@@ -3,13 +3,14 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: Roboto, sans-serif;
+    min-width: min-content;
 }
 
 .first_pane {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
-    height: 550px;
+    height: 500px;
 }
 
 .first_container {
@@ -19,7 +20,7 @@ body {
     margin-top: 20px;
 }
 
-.header {
+.first_container .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +68,7 @@ a {
     color: #e5e7eb;
 }
 
-.hero_left button {
+button {
     border: none;
     border-radius: 8px;
     padding: 8px 30px;
@@ -83,7 +84,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 550px;
+    height: 500px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -115,10 +116,71 @@ a {
     border-radius: 10px;
 }
 
-.text {
+.info .text {
     text-align: center;
 }
 
 .third_pane {
+    display: flex;
     background-color:#e5e7eb;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.third_container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.fourth_pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.fourth_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 1100px;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.message {
+    color: white;
+    font-size: 18px;
+}
+
+.message .header {
+    font-weight: bold;
+}
+
+.fourth_container button {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
 }
